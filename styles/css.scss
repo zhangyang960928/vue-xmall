@@ -1,0 +1,46 @@
+html,
+body,
+#app {
+  height: 100%;
+}
+
+.input {
+  .el-input__inner {
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid #e1e1e1 !important;
+  }
+}
+
+.checkbox-border {
+  .el-checkbox__inner {
+    width: 18px;
+    height: 18px;
+  }
+
+  .el-checkbox__input.is-checked+.el-checkbox__label {
+    color: #606266;
+  }
+}
+.topWord-height{
+  .el-input{
+    width: 305px;
+    height: 36px;
+  }
+  .el-input__inner{
+    height: 36px;
+  }
+}
+.first-right{
+  .el-carousel__arrow--left{
+    display: none;
+  }
+  .el-carousel__arrow--right{
+    display: none;
+  }
+  .el-carousel__button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+}
